@@ -46,7 +46,7 @@
 		FC7477C11C84BFBD00758718 = {
 			isa = PBXGroup;
 			children = (
-				FC7477CC1C84BFBD00758718 /* My Favorite Place */,
+				FC7477CC1C84BFBD00758718 /* Multnomah Falls */,
 				FC7477CB1C84BFBD00758718 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,7 +59,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FC7477CC1C84BFBD00758718 /* My Favorite Place */ = {
+		FC7477CC1C84BFBD00758718 /* Multnomah Falls */ = {
 			isa = PBXGroup;
 			children = (
 				FC7477CD1C84BFBD00758718 /* AppDelegate.swift */,
@@ -73,7 +73,7 @@
 				FC7477DF1C84C27D00758718 /* RoundCorners.swift */,
 				FC7477E31C84CA5200758718 /* RoundCornersLabel.swift */,
 			);
-			name = "My Favorite Place";
+			name = "Multnomah Falls";
 			path = "Happy Valley";
 			sourceTree = "<group>";
 		};
@@ -113,7 +113,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FC7477C51C84BFBD00758718 /* Build configuration list for PBXProject "My Favorite Place" */;
+			buildConfigurationList = FC7477C51C84BFBD00758718 /* Build configuration list for PBXProject "Multnomah Falls" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -288,7 +288,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FC7477C51C84BFBD00758718 /* Build configuration list for PBXProject "My Favorite Place" */ = {
+		FC7477C51C84BFBD00758718 /* Build configuration list for PBXProject "Multnomah Falls" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC7477DA1C84BFBD00758718 /* Debug */,
