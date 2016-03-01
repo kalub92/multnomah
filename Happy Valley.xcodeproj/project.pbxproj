@@ -12,6 +12,10 @@
 		FC7477D31C84BFBD00758718 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC7477D11C84BFBD00758718 /* Main.storyboard */; };
 		FC7477D51C84BFBD00758718 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC7477D41C84BFBD00758718 /* Assets.xcassets */; };
 		FC7477D81C84BFBD00758718 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC7477D61C84BFBD00758718 /* LaunchScreen.storyboard */; };
+		FC7477E01C84C27D00758718 /* RoundCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7477DF1C84C27D00758718 /* RoundCorners.swift */; };
+		FC7477E41C84CA5200758718 /* RoundCornersLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7477E31C84CA5200758718 /* RoundCornersLabel.swift */; };
+		FC7477E61C85041600758718 /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7477E51C85041600758718 /* AboutVC.swift */; };
+		FC7477E81C859D8600758718 /* PhotosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7477E71C859D8600758718 /* PhotosVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		FC7477D41C84BFBD00758718 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC7477D71C84BFBD00758718 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC7477D91C84BFBD00758718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC7477DF1C84C27D00758718 /* RoundCorners.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundCorners.swift; sourceTree = "<group>"; };
+		FC7477E31C84CA5200758718 /* RoundCornersLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundCornersLabel.swift; sourceTree = "<group>"; };
+		FC7477E51C85041600758718 /* AboutVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
+		FC7477E71C859D8600758718 /* PhotosVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +63,15 @@
 			isa = PBXGroup;
 			children = (
 				FC7477CD1C84BFBD00758718 /* AppDelegate.swift */,
+				FC7477E51C85041600758718 /* AboutVC.swift */,
+				FC7477E71C859D8600758718 /* PhotosVC.swift */,
 				FC7477CF1C84BFBD00758718 /* ViewController.swift */,
 				FC7477D11C84BFBD00758718 /* Main.storyboard */,
 				FC7477D41C84BFBD00758718 /* Assets.xcassets */,
 				FC7477D61C84BFBD00758718 /* LaunchScreen.storyboard */,
 				FC7477D91C84BFBD00758718 /* Info.plist */,
+				FC7477DF1C84C27D00758718 /* RoundCorners.swift */,
+				FC7477E31C84CA5200758718 /* RoundCornersLabel.swift */,
 			);
 			path = "Happy Valley";
 			sourceTree = "<group>";
@@ -137,7 +149,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC7477D01C84BFBD00758718 /* ViewController.swift in Sources */,
+				FC7477E81C859D8600758718 /* PhotosVC.swift in Sources */,
+				FC7477E61C85041600758718 /* AboutVC.swift in Sources */,
 				FC7477CE1C84BFBD00758718 /* AppDelegate.swift in Sources */,
+				FC7477E41C84CA5200758718 /* RoundCornersLabel.swift in Sources */,
+				FC7477E01C84C27D00758718 /* RoundCorners.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +268,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.stultz.Happy-Valley";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -263,6 +280,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.stultz.Happy-Valley";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
